@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Yeseva+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* {
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Yeseva One', cursive;
+} */
+/* Home start */
+#home_main{
+    background-image: url(..//images/Restrurent_home_bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Navbar start */
+.navbar{
+    margin-top: -20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin: 40px 0px 40px 40px;
+    color: #ffffff;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 21px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #dab33e;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #ffffff;
+    top: 0;
+    margin-top: -20px;
+    left: 0;
+    position: absolute;
+    transition: 0.4s;
+}
+.nav-link:hover::after{
+    content: '';
+    width: 100%;
+}
+.nav_link i{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 55px 0px 40px 10px;
+    transition: 0.4s;
+}
+.nav_link i:hover{
+    color: #dab33e;
+}
+.nav_link .active{
+    color:#dab33e;
+}
+/* Home con start */
+.home_con h1{
+    color: #ffffff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 90px;
+    padding-top: 100px;
+    text-align: center;
+}
+.home_divider img{
+   display: block;
+   margin: auto;
+}
+.home_btn_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px 100px 0px;
+}
+.home_btn button{
+    padding: 10px 30px 10px 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: 	rgb(255, 255, 250 , 0.2);
+    border-radius: 3px;
+    transition: 0.4s;
+}
+.home_btn button:hover{
+    background-color: 	rgb(0, 0, 0,0.5);
+    border-color: transparent;
+}
+
+/* Services 1 start */
+#services_1_main{
+    background-image: url(..//images/Restrurent_services_01_img_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.services_con h4{
+    margin-top: 100px;
+    color: #cc9900;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+.services_divider img{
+    display: block;
+    margin: auto;
+}
+.services_con p{
+    color: #4c4c4c;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    max-width: 80%;
+    margin: auto;
+}
+.services_1_sm img{
+    padding-top: 40px;
+}
+.services_1_d img{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/*Services 1 end */
+
+/* Services_2 start */
+#services_2_main{
+    background-image: url(..//images/Restrurent_service_2_img_bg_01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.services_2_con{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0,0,0,0.5);
+    margin: 100px 0px 100px 550px;
+}
+.services_2_con h3{
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    padding-top: 80px;
+}
+.services_2_divider img{
+    display: block;
+    margin: auto;
+}
+.services_2_con p{
+    color: #ffffff;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    max-width: 98%;
+    margin: auto;
+}
+.services_2_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+    
+}
+/* Services_2 end */
+
+/* Services_3 start */
+#services_3_main{
+     background-image: url(..//images/Restrurent_services_01_img_bg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     overflow: hidden;
+     padding-bottom: 100px;
+}
+.services_3con_headline h4{
+    color: #cc9900;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    padding-top: 100px;
+}
+.services_3con_divider img{
+    display: block;
+    margin: auto;
+}
+.services_3con_pri{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c89f2d;
+}
+.services_3con_act{
+    color: #c89f2d;
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+}
+.services_3con p{
+    color: #4c4c4c;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+}
+.col-5 {
+    margin: 0px 40px 0px 50px;
+}
+.services_3con_h h4{
+    color: #cc9900;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    padding-top: 50px;
+}
+.service_3con_spe{
+    border: 1px solid #dab33e;
+    padding: 10px;
+    margin: 30px 0px 10px 0px;
+    position: relative;
+}
+.service_3con_spe::after {
+    content: 'special';
+    position: absolute;
+    width: 70px;
+    height: 25px;
+    background-color: #cc9900;
+    top: -26%;
+    left: 84.7%;
+    padding-bottom: 10px;
+    color: white;
+    padding: 0px 10px 0px 12px;
+}
+.services_3con_he h4{
+    color: #cc9900;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+/* Services_3 end */
+
+/* Services 4 start */
+#services_4_main{
+    background-image: url(..//images/Restrurent_services_3_img_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.services_4_con_main{
+    width: 450px;
+    height: 350px;
+    background-color: rgba(0,0,0,0.8);
+    margin: 100px auto 100px auto;
+    display: block;
+}
+.services_4_con h4{
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+    padding-top: 50px;
+
+}
+.ser_4_divider img{
+    display: block;
+    margin: auto;
+}
+.services_4_con p{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Gentium Book Plus', serif;
+    padding: 10px 30px 0px 30px;
+    text-align: center;
+
+}
+/* Services 4 end */
+
+/* Servics 5 start */
+#services_5_main{
+    background-image: url(..//images/Restrurent_services_01_img_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.services_5img img{
+    margin: 100px 0px 100px 0px;
+}
+.ser_5_con{
+    margin: 100px 0px 100px 0px;
+}
+.ser_5_con h4{
+    color:#cc9900;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+.ser_5_divider img{
+    display: block;
+    margin: auto;
+}
+.ser_5_con p{
+    color:#4c4c4c;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    padding: 20px 50px 0px 50px;
+    text-align: center;
+}
+.ser_5_con .serp2{
+    color:#4c4c4c;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+}
+.party_con_fl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+}
+.party_con_1 input{
+    width: 200px;
+    height: 30px;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+.party_con_1 h6{
+    color:#dab33e;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.par_btn{
+    text-align: center;
+}
+.par_btn button{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #dab33e;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Servics 5 end */
+
+/* Footer start */
+#footer_main{
+    background-color: #191919;
+}
+.footer_con{
+    padding-top: 100px;
+}
+.footer_h h4{
+    color: #fefefe;
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+.footer_divider img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.footer_c p{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+.fc_2{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+.footer_card img{
+    display: block;
+    margin: auto;
+}
+/* Footer end */
